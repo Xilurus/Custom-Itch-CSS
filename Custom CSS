@@ -1,0 +1,21 @@
+<style id="custom_css" type="text/css">.user_profile{}
+.game_cell{
+background-color: #090b14;
+padding: 8px;
+border:3px #a0f3f1 solid;
+border-radius: 5%;
+position: relative;
+display: inline-block;
+transition: all 50ms ease-in;
+transform: scale(1);
+
+}
+.game_cell:hover{
+padding: 10px;
+border:3px #ffa733 solid;
+box-shadow: 0px 0px 100px 5px #000000;
+z-index: 2;
+transition: all 100ms ease-in;
+transform: scale(1.00) rotate(-0.0deg);
+background-color: #000000
+}
